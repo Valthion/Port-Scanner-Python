@@ -15,4 +15,4 @@ Advanced ones could scan for running processes in ports and detect SOCKS v4 and 
 5. eventlet
 6. netaddr
 7. threading
-- *Install required library with 'pip install <library>' if it's unavailable in your PC to run this script*
+- *Install required library with 'pip install (library)' if it's unavailable in your PC to run this script*
