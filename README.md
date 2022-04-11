@@ -4,7 +4,7 @@ Advanced ones could scan for running processes in ports and detect SOCKS v4 and 
 
 ## FEATURES
 1. Port scanning (Using IP ranges and Port ranges)
-2. Scanning for process running in ports (Advanced scanner)
+2. Scanning for process running in ports (Advanced scanner, experimental!)
 3. SOCKS v4 and v5 scanning (Advanced scanner)
 
 ### Library
