@@ -16,3 +16,4 @@ Advanced ones could scan for running processes in ports and detect SOCKS v4 and 
 6. netaddr
 7. threading
 - *Install required library with 'pip install (library)' if it's unavailable in your PC to run this script*
+- *These scripts are written using Python 3 and open source, please credit us if you make modifications and publish it :)*
