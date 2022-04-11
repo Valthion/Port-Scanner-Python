@@ -15,5 +15,6 @@ Advanced ones could scan for running processes in ports and detect SOCKS v4 and 
 5. eventlet
 6. netaddr
 7. threading
-- *Install required library with 'pip install (library)' if it's unavailable in your PC to run this script*
+- *Install required library with 'pip install (library)' if it's unavailable on your PC to run this script*
+- *Don't forget to install Nmap on your PC*
 - *These scripts are written using Python 3 and open source, please credit us if you make modifications and publish it :)*
