@@ -18,5 +18,9 @@ Advanced ones could scan for running processes in ports and detect SOCKS v4 and 
 - *Don't forget to install Nmap on your PC*
 - *These scripts are written using Python 3 and open source, please credit us if you make modifications and publish it :)*
 
+### Advanced Port Scanner
 ![PROOF_WORKING](https://user-images.githubusercontent.com/65765848/162907270-0356a397-a34e-47f5-a2ef-2b7112a6db82.png)
 ![PROOF_WORKING_2](https://user-images.githubusercontent.com/65765848/162907286-a5dbebde-f5d8-4fa9-b4d1-0b5de160f6d8.png)
+
+### Simple Port Scanner
+![PROOF_WORKING_SIMPLE](https://user-images.githubusercontent.com/65765848/162907788-e4dd6a61-d5a3-4cad-a746-e2bda2abf114.png)
