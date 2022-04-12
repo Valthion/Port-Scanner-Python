@@ -17,3 +17,6 @@ Advanced ones could scan for running processes in ports and detect SOCKS v4 and 
 - *Install required library with 'pip install (library)' if it's unavailable on your PC to run this script*
 - *Don't forget to install Nmap on your PC*
 - *These scripts are written using Python 3 and open source, please credit us if you make modifications and publish it :)*
+
+![PROOF_WORKING](https://user-images.githubusercontent.com/65765848/162907270-0356a397-a34e-47f5-a2ef-2b7112a6db82.png)
+![PROOF_WORKING_2](https://user-images.githubusercontent.com/65765848/162907286-a5dbebde-f5d8-4fa9-b4d1-0b5de160f6d8.png)
