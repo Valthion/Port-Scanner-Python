@@ -2,7 +2,6 @@ import ipaddress
 import nmap
 import requests
 import socket
-import eventlet
 from netaddr import *
 
 def test_socks4(ip,port,url):
@@ -31,15 +30,15 @@ def test_socks5(ip,port,url):
 
 def scanner(ip,port):
     pesan=""
-    with eventlet.Timeout(5):
-        try:
+    try:
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            s.settimeout(5)
             s.connect((str(ip), int(port)))
             s.send(b'halo')
             pesan = s.recv(4096)
             s.close()
-        except:
-            pesan="Error"
+    except:
+        pesan="Error"
     return(pesan)
 
 while True:
@@ -79,9 +78,13 @@ for ip in iprange:
        for host in nm.all_hosts():
            print('Host : %s (%s)' % (host, nm[host].hostname()))
            print('State : %s' % nm[host].state())
-           for proto in nm[host].all_protocols():
+           print("=================================================================================")
+           if (len(nm[host].all_protocols()) == 0):
+               print("No open ports")
                print("=================================================================================")
+           for proto in nm[host].all_protocols():
                print('Protocol : %s' % proto)
+               print("=================================================================================")
                lport = nm[host][proto].keys()
                for port in lport:
                    socksyes4 = False
